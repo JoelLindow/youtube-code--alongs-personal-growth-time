@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <!-- <meta charset="utf-8"> -->
+  <title>Learning JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- ##### EXAMPLE 1 ##### -->
+<!-- <body>
+  <div class="header">
+    <h1>Learning JavaScript</h1>
+    <p>With Joel Lindow</p>
+  </div>
+
+  <div class="container">
+    <p>These notes from video: https://youtu.be/vEROU2XtPR8</p>
+  </div>
+
+  <div class="container">
+    <button onclick="changeText(this)">Click Me</button>
+  </div>
+
+  <script class='events'>
+    function changeText(id){
+      id.innerHTML = 'You Clicked';
+    }
+  </script>
+</body> -->
+
+<!-- ##### EXAMPLE 2 ##### -->
+<!-- <body>
+  <div class="header">
+    <h1>Learning JavaScript</h1>
+    <p>With Joel Lindow</p>
+  </div>
+
+  <div class="container">
+    <p>These notes from video: https://youtu.be/vEROU2XtPR8</p>
+  </div>
+
+  <div class="container">
+    <button onclick="changeText(this)">Click Me</button>
+  </div>
+
+  <script class='events'>
+    function changeText(id){
+      id.innerHTML = 'You Clicked';
+    }
+  </script>
+</body> -->
+
+<!-- ##### EXAMPLE 3 ##### -->
+<!-- <body>
+  <div class="header">
+    <h1 id="heading">Learning JavaScript</h1>
+    <p>With Joel Lindow</p>
+  </div>
+
+  <div class="container">
+    <p>These notes from video: https://youtu.be/vEROU2XtPR8</p>
+  </div>
+
+  <div class="container">
+    <button onclick="changeText()">Click Me</button>
+  </div>
+
+  <script class='events'>
+    function changeText(){
+      var heading = document.getElementById('heading');
+      heading.innerHTML = 'You Clicked!'
+    }
+  </script>
+</body> -->
+
+<!-- ##### EXAMPLE 4 ##### -->
+<!-- <body>
+  <div class="header">
+    <h1 id="heading">Learning JavaScript</h1>
+    <p>With Joel Lindow</p>
+  </div>
+
+  <div class="container">
+    <p>These notes from video: https://youtu.be/vEROU2XtPR8</p>
+  </div>
+
+  <div class="container">
+    <h2 id='time'>--------------------</h2>
+    <button onclick="showDate()">Show Date</button>
+  </div>
+
+  <script class='events'>
+    function showDate(){
+      var time = document.getElementById('time');
+      time.innerHTML = Date();
+    }
+  </script>
+</body> -->
+
+
+<!-- ##### EXAMPLE 5 - onmouseover & onmouseout ##### -->
+<body>
+  <div class="header">
+    <h1 id="heading">Learning JavaScript</h1>
+    <p>With Joel Lindow</p>
+  </div>
+
+  <div class="container">
+    <p>These notes from video: https://youtu.be/vEROU2XtPR8</p>
+  </div>
+
+  <div class="container">
+    <button onmouseover="showDate()" onmouseout="clearDate()">Show Date</button>
+    <h2 id='time'>--------------------</h2>
+  </div>
+
+  <script class='events'>
+    function showDate(){
+      var time = document.getElementById('time');
+      time.innerHTML = Date();
+    }
+    function clearDate(){
+      var time = document.getElementById('time');
+      time.innerHTML = "--------------------";
+    }
+  </script>
+</body>
+
+
+
+</html>
