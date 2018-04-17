@@ -1,0 +1,105 @@
+<!-- Example 1 - Simple Text Colorchange Using onclick and function-->
+<!-- <html>
+<head>
+  <title>JavaScript DOM HTML Events for Absolute Beginners</title>
+</head>
+
+<body>
+  <h1 id="foo">JavaScript DOM HTML Events for Absolute Beginners</h1>
+  <button onclick="change()">Change</button>
+</body>
+
+<script>
+  function change(){
+    document.getElementById('foo').style.color="red";
+  }
+</script>
+</html> -->
+
+
+<!-- Example 2 - Text Color Change with variable assignment -->
+<!-- <html>
+<head>
+  <title>JavaScript DOM HTML Events for Absolute Beginners</title>
+</head>
+
+<body>
+  <h1 id="foo">THIS TEXT IS BLACK!</h1>
+  <button onclick="change()">Change</button>
+</body>
+
+<script>
+  function change(){
+    var x = document.getElementById('foo');
+    x.style.color="blue";
+    x.innerHTML="OH SNAP THIS TEXT IS BLUE NOW!"
+  }
+</script>
+</html> -->
+
+
+<!-- Example 3 -  onclick with no button changing a div. just anothjer use.-->
+<!-- <html>
+<head>
+  <title>JavaScript DOM HTML Events for Absolute Beginners</title>
+</head>
+
+<body>
+  <h1>THAT LITTLE TEXT NEEDS TO BE COOLER</h1>
+  <div id="foo" onclick="change()">
+    I am currently not very cool. I could be if you'd click me!
+  </div>
+</body>
+
+<script>
+  function change(){
+    var x = document.getElementById('foo');
+    x.style.color="blue";
+    x.innerHTML="OH SNAP! Now THAT is some cool text!"
+  }
+</script>
+</html> -->
+
+
+<!-- Example 4 -  onload event (can only happen in the body tag)-->
+<!-- <html>
+<head>
+  <title>JavaScript DOM HTML Events for Absolute Beginners</title>
+</head>
+
+<body onload="change()">
+  <h1>THAT LITTLE TEXT NEEDS TO BE COOLER</h1>
+  <div id="foo">
+    I am currently not very cool. I could be if you'd click me!
+  </div>
+</body>
+
+<script>
+  function change(){
+    var x = document.getElementById('foo');
+    x.style.color="blue";
+    x.innerHTML="YOU NEVER SAW THE OLD STUFF, CAUSE THIS STUFF HAPPENED ON-LOAD!"
+  }
+</script>
+</html> -->
+
+
+<!-- Example 5 -  onchange event-->
+<!-- <html>
+<head>
+  <title>JavaScript DOM HTML Events for Absolute Beginners</title>
+</head>
+
+<body>
+  <h1>Type some black text. Watch it turn blue & uppercase when you do something!</h1>
+<input type="text" id="foo" onchange="change()">
+</body>
+
+<script>
+  function change(){
+    var x = document.getElementById('foo');
+    x.style.color="blue";
+    x.style.textTransform="uppercase"
+  }
+</script>
+</html> -->
